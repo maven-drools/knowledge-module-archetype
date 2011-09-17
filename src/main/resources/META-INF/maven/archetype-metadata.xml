@@ -19,13 +19,11 @@
     xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
-
-    name="My Experimental Rules Archetype"
-    partial="false">
+    name="Drools Knowledge Module" partial="false">
 
   <requiredProperties>
     <requiredProperty key="my-property">
-      <defaultValue>this.is.my.default.value</defaultValue>
+      <defaultValue>the.default.value</defaultValue>
     </requiredProperty>
   </requiredProperties>
 
@@ -42,7 +40,7 @@
         <include>**/*.drl</include>
       </includes>
     </fileSet>
-    <fileSet filtered="false" packaged="false" encoding="UTF-8">
+    <fileSet filtered="true" packaged="false" encoding="UTF-8">
       <directory>/</directory>
       <includes>
         <include>pom.xml</include>

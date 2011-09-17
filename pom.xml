@@ -19,50 +19,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>de.lightful.poms</groupId>
+    <artifactId>archetype</artifactId>
+    <version>3</version>
+  </parent>
+
   <groupId>de.lightful.maven.drools.archetypes</groupId>
   <artifactId>knowledge-module-archetype</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>Maven Drools Archetypes :: Knowledge Module</name>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.archetype</groupId>
-        <artifactId>archetype-packaging</artifactId>
-        <version>2.0</version>
-      </extension>
-    </extensions>
-
-    <!--<dependencies>-->
-    <!--<dependency>-->
-    <!--<groupId>org.testng</groupId>-->
-    <!--<artifactId>testng</artifactId>-->
-    <!--<scope>test</scope>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-    <!--<groupId>org.easytesting</groupId>-->
-    <!--<artifactId>fest-assert</artifactId>-->
-    <!--<version>1.4</version>-->
-    <!--<scope>test</scope>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-    <!--<groupId>de.lightful.maven.drools</groupId>-->
-    <!--<artifactId>knowledge-io</artifactId>-->
-    <!--</dependency>-->
-    <!--</dependencies>-->
-
-    <!--<build>-->
-    <!--<plugins>-->
-    <!--<plugin>-->
-    <!--<groupId>org.apache.maven.plugins</groupId>-->
-    <!--<artifactId>maven-compiler-plugin</artifactId>-->
-    <!--</plugin>-->
-    <!--</plugins>-->
-  </build>
 
 </project>

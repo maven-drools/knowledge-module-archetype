@@ -1,0 +1,8 @@
+package ${package};
+
+rule "rule my property-${my-property}"
+  when
+    .
+  then
+    .
+end
