@@ -23,7 +23,7 @@
   <parent>
     <groupId>de.lightful.poms</groupId>
     <artifactId>archetype</artifactId>
-    <version>4</version>
+    <version>5</version>
   </parent>
 
   <groupId>de.lightful.maven.drools.archetypes</groupId>
